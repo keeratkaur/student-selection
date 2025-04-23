@@ -9,3 +9,4 @@ fuzzywuzzy
 python-Levenshtein
 pandas
 gunicorn
+numpy==1.24.4

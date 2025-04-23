@@ -44,12 +44,15 @@ model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_l
 
 # Load the model weights
 try:
-    model_path = r"C:\Users\Harkirat\OneDrive - TechNL\Desktop\FlaskApi\internship_selection_model.pt"
-    model.load_state_dict(torch.load(model_path, map_location=device))
-    print(f"Model loaded successfully from {model_path}")
+    model_path = os.environ.get('MODEL_PATH', 'internship_selection_model.pt')
+    if os.path.exists(model_path):
+        model.load_state_dict(torch.load(model_path, map_location=device))
+        print(f"Model loaded successfully from {model_path}")
+    else:
+        print(f"Warning: Model file not found at {model_path}. Using base BERT model.")
 except Exception as e:
     print(f"Error loading model: {str(e)}")
-    raise
+    print("Continuing with base BERT model...")
 
 model.to(device)
 model.eval()

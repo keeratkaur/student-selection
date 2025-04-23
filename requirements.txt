@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+flask
+flask-cors
+torch==2.0.1
+transformers==4.31.0
+nltk
+fuzzywuzzy
+python-Levenshtein
+pandas
+gunicorn

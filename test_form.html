@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Application Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input, textarea { width: 100%; padding: 8px; }
+        button { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        #result { margin-top: 20px; white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+    <h1>Internship Application Test</h1>
+    <form id="applicationForm">
+        <div class="form-group">
+            <label for="town">Town:</label>
+            <input type="text" id="town" name="town" value="St. John's" required>
+        </div>
+        <div class="form-group">
+            <label for="identify_as">Identify As:</label>
+            <input type="text" id="identify_as" name="identify_as" value="female" required>
+        </div>
+        <div class="form-group">
+            <label for="why_internship">Why Internship:</label>
+            <textarea id="why_internship" name="why_internship" rows="3" required>I am passionate about technology and want to gain practical experience in software development</textarea>
+        </div>
+        <div class="form-group">
+            <label for="tech_experience">Technical Experience:</label>
+            <textarea id="tech_experience" name="tech_experience" rows="3" required>I have completed several programming courses and worked on personal projects using Python and JavaScript</textarea>
+        </div>
+        <div class="form-group">
+            <label for="goals">Goals:</label>
+            <textarea id="goals" name="goals" rows="3" required>I aim to become a full-stack developer and contribute to innovative tech solutions</textarea>
+        </div>
+        <div class="form-group">
+            <label for="non_tech_experience">Non-Technical Experience:</label>
+            <textarea id="non_tech_experience" name="non_tech_experience" rows="3">I have worked in customer service and team leadership roles</textarea>
+        </div>
+        <div class="form-group">
+            <label for="other_comments">Other Comments:</label>
+            <textarea id="other_comments" name="other_comments" rows="3">I am eager to learn and grow in a professional environment</textarea>
+        </div>
+        <button type="submit">Submit Application</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById('applicationForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = {
+                town: document.getElementById('town').value,
+                identify_as: document.getElementById('identify_as').value,
+                why_internship: document.getElementById('why_internship').value,
+                tech_experience: document.getElementById('tech_experience').value,
+                goals: document.getElementById('goals').value,
+                non_tech_experience: document.getElementById('non_tech_experience').value,
+                other_comments: document.getElementById('other_comments').value
+            };
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const data = await response.json();
+                document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('result').textContent = 'Error: ' + error.message;
+            }
+        });
+    </script>
+</body>
+</html> 

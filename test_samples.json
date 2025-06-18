@@ -1,0 +1,92 @@
+[
+  {
+    "town": "St. John's",
+    "identify_as": "Female",
+    "why_internship": "I am passionate about technology and want to gain real-world experience in software development. This internship would help me apply my classroom knowledge to practical projects and build my professional network.",
+    "tech_experience": "I have completed courses in Python, Java, and web development. I've built several projects including a student management system and an e-commerce website. I'm also familiar with Git and agile methodologies.",
+    "non_tech_experience": "I've worked as a customer service representative for 2 years, which has improved my communication skills. I've also volunteered as a tutor for high school students in math and science.",
+    "goals": "My goal is to become a full-stack developer and eventually work on projects that make a positive impact on society. I want to specialize in web development and learn cloud technologies.",
+    "other_comments": "I'm a quick learner and enjoy working in teams. I'm available to start immediately and can work flexible hours."
+  },
+  {
+    "town": "Corner Brook",
+    "identify_as": "Indigenous, First Generation",
+    "why_internship": "As an indigenous student, I want to bring diverse perspectives to the tech industry. This internship would help me bridge the gap between traditional knowledge and modern technology.",
+    "tech_experience": "I have basic programming skills in Python and have created a mobile app for my community. I'm learning React Native and have experience with database design.",
+    "non_tech_experience": "I've been involved in community leadership roles and have organized cultural events. I've also worked part-time at a local business helping with their digital transformation.",
+    "goals": "I want to develop technology solutions that serve indigenous communities and preserve cultural heritage. My long-term goal is to create educational software for indigenous languages.",
+    "other_comments": "I bring unique cultural insights and am committed to making technology more accessible to underrepresented communities."
+  },
+  {
+    "town": "Mount Pearl",
+    "identify_as": "Male",
+    "why_internship": "I'm looking for hands-on experience in software development to complement my academic studies. This opportunity would help me understand industry best practices.",
+    "tech_experience": "Strong background in C++, data structures, and algorithms. I've participated in coding competitions and have built a machine learning model for image classification.",
+    "non_tech_experience": "I've been a member of the university debate team and have organized several tech meetups. I also have experience in project management from leading student groups.",
+    "goals": "I aim to work in artificial intelligence and machine learning. I want to contribute to developing AI solutions that benefit society.",
+    "other_comments": "I'm detail-oriented and enjoy solving complex problems. I can work independently and in collaborative environments."
+  },
+  {
+    "town": "Gander",
+    "identify_as": "Transgender, LGBTQ+",
+    "why_internship": "I'm excited about this opportunity to work in an inclusive environment where I can contribute my technical skills while being my authentic self.",
+    "tech_experience": "I have experience with JavaScript, React, and Node.js. I've developed a social media platform and have worked with APIs and cloud services.",
+    "non_tech_experience": "I've been an advocate for LGBTQ+ rights and have organized awareness campaigns. I've also worked as a peer mentor for other students.",
+    "goals": "I want to create inclusive technology that serves diverse communities. My goal is to work on projects that promote equality and accessibility.",
+    "other_comments": "I bring a unique perspective on user experience design and am passionate about creating technology that works for everyone."
+  },
+  {
+    "town": "St. John's",
+    "identify_as": "Asian, Female, Low Income",
+    "why_internship": "This internship would be a life-changing opportunity for me. As a first-generation immigrant, I want to prove that hard work and determination can overcome any barriers.",
+    "tech_experience": "I have strong mathematical skills and have learned Python, SQL, and data analysis. I've created data visualization projects and have experience with statistical modeling.",
+    "non_tech_experience": "I've worked multiple part-time jobs to support my education. I've also volunteered at a local food bank and have been a tutor for other international students.",
+    "goals": "I want to work in data science and help organizations make better decisions through data analysis. I hope to inspire other immigrant students to pursue careers in tech.",
+    "other_comments": "I'm highly motivated and willing to work extra hours to learn and contribute. I bring international perspective and strong work ethic."
+  },
+  {
+    "town": "Labrador City",
+    "identify_as": "Non-binary, Disabled",
+    "why_internship": "I want to demonstrate that disability is not a barrier to success in technology. This internship would help me showcase my abilities and contribute to creating more accessible software.",
+    "tech_experience": "I have experience with accessibility testing and have developed tools to help people with disabilities. I'm proficient in Python, JavaScript, and have worked with assistive technologies.",
+    "non_tech_experience": "I've been an accessibility advocate and have consulted with organizations on making their digital content more inclusive. I've also written articles about technology accessibility.",
+    "goals": "I want to specialize in accessibility engineering and help create technology that works for everyone, regardless of ability. I aim to make the tech industry more inclusive.",
+    "other_comments": "I bring unique insights into accessibility challenges and solutions. I'm passionate about universal design and inclusive technology."
+  },
+  {
+    "town": "Grand Falls-Windsor",
+    "identify_as": "Black, Veteran",
+    "why_internship": "My military experience has taught me discipline, leadership, and problem-solving skills that I want to apply in the technology sector. This internship would help me transition to civilian tech work.",
+    "tech_experience": "I have experience with cybersecurity from my military background and have learned Python and network security. I've also completed online courses in web development.",
+    "non_tech_experience": "I served in the military for 8 years, leading teams and managing complex operations. I've also volunteered with veteran support organizations.",
+    "goals": "I want to work in cybersecurity and help protect organizations from digital threats. I hope to mentor other veterans transitioning to tech careers.",
+    "other_comments": "I bring strong leadership skills and a unique perspective on security and risk management. I'm committed to continuous learning and professional development."
+  },
+  {
+    "town": "St. John's",
+    "identify_as": "Prefer not to say",
+    "why_internship": "I'm interested in gaining practical experience in software development and learning from experienced professionals in the field.",
+    "tech_experience": "I have completed computer science courses and have basic programming skills in Java and Python. I've worked on small projects and am eager to learn more.",
+    "non_tech_experience": "I've worked in retail and have good customer service skills. I'm also involved in university clubs and have experience working in teams.",
+    "goals": "I want to develop my programming skills and eventually work as a software developer. I'm open to different areas of specialization.",
+    "other_comments": "I'm a hard worker and quick learner. I'm flexible with my schedule and can adapt to different work environments."
+  },
+  {
+    "town": "Stephenville",
+    "identify_as": "Mixed Race, First Generation",
+    "why_internship": "Coming from a small town, this internship would give me the opportunity to work on meaningful projects and gain exposure to the tech industry.",
+    "tech_experience": "I have taught myself programming through online resources and have built several web applications. I'm familiar with HTML, CSS, JavaScript, and have started learning React.",
+    "non_tech_experience": "I've worked on my family's business and have experience with customer relations and problem-solving. I've also been involved in community service projects.",
+    "goals": "I want to become a full-stack developer and eventually start my own tech company. I hope to bring technology opportunities back to rural communities.",
+    "other_comments": "I bring a rural perspective and understand the challenges of limited access to technology resources. I'm motivated to bridge the digital divide."
+  },
+  {
+    "town": "Mount Pearl",
+    "identify_as": "Genderqueer, LGBTQ+",
+    "why_internship": "I want to work in an environment that values diversity and inclusion. This internship would allow me to contribute my technical skills while being part of a progressive team.",
+    "tech_experience": "I have experience with front-end development using React and Vue.js. I've also worked with design tools and have a good understanding of user experience principles.",
+    "non_tech_experience": "I've been involved in LGBTQ+ advocacy and have organized events promoting diversity in tech. I've also worked as a graphic designer and have creative skills.",
+    "goals": "I want to work on projects that promote social justice and equality. I aim to create technology that serves diverse communities and challenges stereotypes.",
+    "other_comments": "I bring creative problem-solving skills and a commitment to inclusive design. I'm passionate about making technology more accessible to marginalized groups."
+  }
+] 
